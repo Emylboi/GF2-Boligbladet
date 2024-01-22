@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/d98c3039df.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="heading">
+      <img src="logo/BoligBladetLogo-707070.png" alt="" class="headerLogo">
+
+      <button class="burgerBtn fa-solid fa-bars" id="burgerBtn"></button>
+      <ul class="burger-menu" id="burger-menu">
+        <li class="nav-option">
+          <a href="#gallery">Inspiration</a>
+        </li>
+        <li class="nav-option">
+          <a href="#article">Artikler</a>
+        </li>
+        <li class="nav-option">
+          <a href="#subscription">Abonnement</a>
+        </li>
+      </ul>
+      
+      <div class="navigation">
+        <a href="#gallery"><div class="nav">INSPIRATION</div></a>
+        <a href="#article"><div class="nav">ARTIKLER</div></a>
+        <a href="#subscription"><div class="nav">ABONNEMENT</div></a>
+      </div>
+    </header>
+
+    <section class="slider" id="slider">
+      <div class="slider-slides">
+        <img class="slider-slide" />
+        <div class="slider-content">
+          <h1 class="slider-text">Dit foretrukne online boligmagasin</h1>
+          <a href="linkpoint.html"><button class="slider-button">LÆS MERE</button></a>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <p>
+        Søger du <br>
+        inspiration til
+        boligindretning?
+      </p>
+
+      <div class="image-container">
+        <div class="imageBox">
+          <a href="linkpoint.html"><div class="image1 image"></div></a>
+          <h2>Køkkenet</h2>
+        </div>
+  
+        <div class="imageBox">
+          <a href="linkpoint.html"><div class="image2 image"></div></a>
+          <h2>Badeværelset</h2>
+        </div>
+  
+        <div class="imageBox">
+          <a href="linkpoint.html"><div class="image3 image"></div></a>
+          <h2>Stuen</h2>
+        </div>
+  
+        <div class="imageBox">
+          <a href="linkpoint.html"><div class="image4 image"></div></a>
+          <h2>Haven</h2>
+        </div>
+      </div>
+      <a href="linkpoint.html"><button class="galleryButton">SE ALLE RUM</button></a>
+    </section>
+
+    <section class="article" id="article">
+      <div class="articleImage">
+        <div class="article-text">
+          <h2>UGENS MEST LÆSTE</h2>
+          <h1>
+            "Thomas var mest til neutrale farver, men pludselig er en farve vokset
+            på ham..."
+          </h1>
+          <a href="linkpoint.html"><button class="articleButton">LÆS ARTIKLEN HER</button></a>
+        </div>
+      </div>
+    </section>
+    <section class="subscription" id="subscription">
+      <section class="subscribeMessage">
+        <h1>Abonnér på vores online magasin</h1>
+        <p class="spacing">Og spar op til 379 kr</p>
+        <p>
+          Når du udfylder formularen, får du fakturaen tilsendt på mail. Husk at
+          tjekke dit spamfilter!
+        </p>
+      </section>
+  
+      <section class="forms">
+        <form id="form-Subscribe">
+        <label
+          >FULDE NAVN
+          <input
+            type="text"
+            class="inputField"
+            name="firstName"
+            required
+            minlength="2"
+            maxlength="25"
+          />
+        </label>
+        <label
+          >EMAIL
+          <input
+            type="text"
+            class="inputField"
+            name="email"
+            required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          />
+        </label>
+        <label
+          >ANTAL MÅNEDER
+          <select name="months" class="inputField" id="months"></select>
+        </label>
+        <input
+          type="submit"
+          class="submitButton"
+          name="submit"
+          value="KØB ABONNEMENT"
+        />
+      </form>
+      </section>
+    </section>
+    
+
+    <footer class="footing">
+      <div class="footer-content">
+        <div class="footer-contact">
+          <p><b>KONTAKT OS</b></p>
+          <p>
+            TELEFON <br />
+            +45 23 54 76 78
+          </p>
+          <p>
+            EMAIL <br />
+            INFO@INFO.DK
+          </p>
+        </div>
+        <div class="footer-information">
+          <p><b>INFORMATION</b></p>
+          <a href="linkpoint.html"><p class="footerInfo">ABONNEMENTER</p></a>
+          <a href="linkpoint.html"><p class="footerInfo">NYHEDSBREV</p></a>
+          <a href="linkpoint.html"><p class="footerInfo">ANNONCERING</p></a>
+        </div>
+        <div class="footerIcons">
+          <img
+          class="footerLogo"
+          src="logo/BoligBladetLogo-White.png"
+          style="width: 30%; height: 10vh; margin-bottom: 3vh;"
+          alt=""
+        />
+          <div class="footer-icons">
+          <a href="linkpoint.html"><i class="fa-brands fa-facebook" style="font-size: 300%"></i></a>
+          <a href="linkpoint.html"><i class="fa-brands fa-instagram" style="font-size: 300%"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      
+    </footer>
+  </body>
+</html>
